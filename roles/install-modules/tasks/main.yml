@@ -2,9 +2,4 @@
 - name: Install Packages
   apt: name={{ item }} state=latest update_cache=yes
   with_items:
-    - ntp
-    - python
-    - tcpdump
-    - wget
-    - openssl
-    - curl
+    - python3-docker
